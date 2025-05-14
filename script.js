@@ -13,7 +13,7 @@ window.onload = function () {
     // Aquí podrías cargar dinámicamente los datos si lo deseas
     // Por ahora, esto es estático
     if (id == 2) {
-      document.getElementById("main-img").src = "img/zapato2.png";
+      document.getElementById("main-img").src = "zapato2.png";
       document.getElementById("nombreProducto").textContent = "Zapato Elegance";
       document.getElementById("precioProducto").textContent = "$750.000";
     }
