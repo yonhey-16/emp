@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Detalle del Producto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="product-detail">
+    <section class="gallery">
+      <img id="main-img" src="img/zapato1.png" alt="Producto" />
+      <div class="thumbs">
+        <img onclick="cambiarImagen('img/zapato1.png')" src="img/zapato1.png" />
+        <img onclick="cambiarImagen('img/zapato1b.png')" src="img/zapato1b.png" />
+      </div>
+    </section>
+    <section class="info">
+      <h1 id="nombreProducto">Zapato Urban</h1>
+      <p class="price" id="precioProducto">$700.000</p>
+
+      <div class="sizes">
+        <h3>Selecciona la talla</h3>
+        <div class="size-options">
+          <button>37</button><button>38</button><button>39</button>
+          <button>40</button><button>41</button><button>42</button>
+        </div>
+      </div>
+
+      <button class="add-cart">Agregar a la bolsa de compras</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
